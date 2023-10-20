@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Portfólio Pessoal</title>
+    <style>
+        body {
+            background-color: #99DF89; 
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <div class="header-content">
+        <h1 class="fontdes">Galdina Silva de Souza</h1>       
+        <img src="Captura de tela 2023-10-18 233521.png">
+        </div>
+    </header>
+    <div style="background-color: #2B4027; padding: 0 auto; " >
+    <ul>
+        <li class="button">
+            <a href="index.html">Sobre Mim</a>
+            <a href="Formação.html">Formação</a>
+            <a href="portfólio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+    </div>
+        <div>
+        <h2>Contatos</h2>
+        <div style="text-align: center;">
+        <form action="#" method="post">
+        <!--'form'utilizando para criar formulário de preenchimento-->
+            <label for="nome">Nome:</label>
+            <!--'label' para criar campo do nome-->
+            <input type="text" id="nome" name="nome" required><br><br>
+            <!--input de texto para coletar informação-->
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+            <!--botão enviar-->
+        </form>
+        <P>
+            Redes sociais
+        </P>
+
+        <a class="redesocial" href="https://www.instagram.com/galowen/" class="instagram-button">Instagram</a>
+        <!--classe criada para estilizar botão, botão criado com link que direciona para página da rede social-->
+
+        <a class="email" href="mailto:galdina.silva@hotmail.com">E-mail</a>
+        <!--classe criada para estilizar botão, botão criado com link que direciona para página da rede social,
+            'mailto' utilizado para levar o link do e-mail abrir para outra pessoa direto no e-amil que ela utiliza-->
+        </div>
+        </div>
+ </body>
+</html>
